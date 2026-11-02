@@ -1,0 +1,17 @@
+{
+	"schemaVersion": 1,
+	"id": "universal_leaf_decay",
+	"version": "${version}",
+	"name": "Universal Leaf Decay",
+	"description": "Alle Blaetter verfallen, wenn kein Stamm in der Naehe ist - auch dauerhaft gesetzte Blaetter (persistent), z.B. aus Axiom-Blueprints.",
+	"license": "MIT",
+	"environment": "*",
+	"mixins": [
+		"universal_leaf_decay.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.20.1",
+		"minecraft": "~26.1",
+		"java": ">=25"
+	}
+}
